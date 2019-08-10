@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[testagain]]></title>
     <url>%2F2019%2F08%2F10%2Ftestagain%2F</url>
-    <content type="text"><![CDATA[This is a test image article [% asset_img cat.gif 图片1 %] [% asset_img IMG_20190312_122430.jpg 图片2 %]]]></content>
+    <content type="text"><![CDATA[This is a test image article]]></content>
   </entry>
   <entry>
     <title><![CDATA[test]]></title>
