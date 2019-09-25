@@ -8,7 +8,7 @@
   <entry>
     <title><![CDATA[XAMPP的下载安装及使用]]></title>
     <url>%2F2019%2F09%2F18%2FXAMPP%E7%9A%84%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85%E5%8F%8A%E4%BD%BF%E7%94%A8%2F</url>
-    <content type="text"><![CDATA[XAMPP的下载安装及使用下载 ​ 下载网址：https://www.apachefriends.org/index.html ​ ​ 三个版本可供使用，根据自己电脑系统选择 安装 ​ 双击下载好的安装包 ​ 弹出提示 ​ ​ 不慌，翻译看一下，原来是说你有杀毒软件会干扰软件的安装，那就把杀毒软件先退出好咯 ​ ​ yes，继续下一步，嗯? 咋又弹出来我看不懂的玩意儿？ 不慌，继续翻译一波 {% asset_img 4.png tips %}​ 哦，说默认安装路径C:\Program Files（缺少写入权限） 那就不安装在这个位置咯，换成D:\ 总行了吧 ​ 在继续 ​ ​ ​ ​ 注意: 这里把路径改成D:\xampp ​ 继续next，它跳网页没关系，继续点next就完事了 ​ 等待安装 ​ ​ 我这里大概等了3分钟左右，然后启动，语言选择英语即可，你会看到如下界面。 ​ ​ 接着把Apache和MySql开启即可（以后每次都得打开这两项） ​ 当然因为我是卸载重新在安装的，开启Apache的时候，遇到些小问题，Apache无法打开，原因是因为80端口或443端口被占用，改下配置文件就解决了。 ​ 先打开 Apache(httpd.conf),找到：Listen 80 替换成：Listen 8080；找到：ServerName localhost:80 替换成：ServerName localhost:8080；保存，关闭xampp，在打开就ok了。]]></content>
+    <content type="text"><![CDATA[XAMPP的下载安装及使用下载 ​ 下载网址：https://www.apachefriends.org/index.html ​ ​ 三个版本可供使用，根据自己电脑系统选择 安装 ​ 双击下载好的安装包 ​ 弹出提示 ​ ​ 不慌，翻译看一下，原来是说你有杀毒软件会干扰软件的安装，那就把杀毒软件先退出好咯 ​ ​ yes，继续下一步，嗯? 咋又弹出来我看不懂的玩意儿？ 不慌，继续翻译一波 ​ ​ 哦，说默认安装路径C:\Program Files（缺少写入权限） 那就不安装在这个位置咯，换成D:\ 总行了吧 ​ 在继续 ​ ​ ​ ​ 注意: 这里把路径改成D:\xampp ​ 继续next，它跳网页没关系，继续点next就完事了 ​ 等待安装 ​ ​ 我这里大概等了3分钟左右，然后启动，语言选择英语即可，你会看到如下界面。 ​ ​ 接着把Apache和MySql开启即可（以后每次都得打开这两项） ​ 当然因为我是卸载重新在安装的，开启Apache的时候，遇到些小问题，Apache无法打开，原因是因为80端口或443端口被占用，改下配置文件就解决了。 ​ 先打开 Apache(httpd.conf),找到：Listen 80 替换成：Listen 8080；找到：ServerName localhost:80 替换成：ServerName localhost:8080；保存，关闭xampp，在打开就ok了。]]></content>
   </entry>
   <entry>
     <title><![CDATA[CentOs搭建Zblog]]></title>
